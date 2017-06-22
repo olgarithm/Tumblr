@@ -2,16 +2,15 @@
 //  PhotoCell.swift
 //  Tumblr
 //
-//  Created by Rey Oliva on 6/21/17.
-//  Copyright © 2017 Rey Oliva. All rights reserved.
+//  Created by Olga Andreeva on 6/21/17.
+//  Copyright © 2017 Olga Andreeva. All rights reserved.
 //
 
 import UIKit
 
 class PhotoCell: UITableViewCell {
 
-    
-    @IBOutlet weak var NOTimageView: UIImageView!
+    @IBOutlet weak var photoView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
